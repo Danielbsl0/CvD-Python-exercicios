@@ -1,0 +1,7 @@
+frase = str(input('Digite uma frase:')).upper().strip()
+lin = 64*('\033[35m=\033[m')
+print(f'{lin}')
+print(f'A letra A aparece \033[31m{frase.count("A")} vezes na frase.\033[m')
+print(f'A primeira letra A aparece pela primeira vez na posição \033[32m{frase.find("A") + 1}.\033[m')
+print(f'A última letra aparece na posição:\033[33m{frase.rfind("A") + 1}\033[m')
+print(f'{lin}')

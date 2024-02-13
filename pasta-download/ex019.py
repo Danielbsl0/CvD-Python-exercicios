@@ -1,0 +1,11 @@
+import random
+al1 = str(input('Digite o nome do primeiro aluno:'))
+al2 = str(input('Digite o nome do outro aluno:'))
+al3 = str(input('Digite o nome do outro aluno:'))
+al4 = str(input('Digite o nome do último:'))
+lista = (al1, al2, al3, al4)
+esc = random.choice(lista)
+lin = 48*('\033[35m=\033[m')
+print(f'{lin}')
+print(f'O aluno escolhido para apagar o quadro é: \033[1;31m{esc}\033[m')
+print(f'{lin}')

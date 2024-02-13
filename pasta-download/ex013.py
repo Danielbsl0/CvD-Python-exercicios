@@ -1,0 +1,7 @@
+sal = float(input('Digite o seu salário atual:'))
+buff = float(sal+sal*15/100)
+lin = 96*('\033[1;33m=\033[m')
+print(f'{lin}')
+print(f'O seu salário era de: R$\033[36m{sal}\033[m.')
+print(f'porém com o reajuste salarial de 15% de aumento o seu salário passou a ser de: R$\033[31m{buff}\033[m.')
+print(f'{lin}')

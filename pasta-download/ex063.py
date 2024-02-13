@@ -1,0 +1,11 @@
+n1 = int(input('Digite um valor: '))
+t1 = 0
+t2 = 1
+c = 3
+print(f'A sequência de Fibonacci de {n1} é: {t1}, {t2}', end='')
+while c <= n1:
+    t3 = t1 + t2
+    print(f', {t3}', end='')
+    t1 = t2
+    t2 = t3
+    c +=1

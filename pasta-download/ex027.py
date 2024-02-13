@@ -1,0 +1,7 @@
+nome = str(input('Digite o seu nome completo:')).strip()
+sep = nome.split()
+lin = 64*('\033[35m=\033[m')
+print(f'{lin}')
+print(f'O seu primeiro nome é: \033[31m{sep[0]}\033[m.')
+print(f'O seu último nome é: \033[34m{sep[-1]}\033[m.')
+print(f'{lin}')
